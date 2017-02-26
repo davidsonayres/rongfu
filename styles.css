@@ -65,17 +65,10 @@ div#content_box {
   justify-content: space-around;
 }
 
+/* HOME */
 #content_box div {
   width: 30%;
   height: 85%;
   border: 1px solid black;
   background-color: lightgrey;
-}
-
-div#home_image {
-  width: 100%;
-  height: 80%;
-  margin: 3% auto;
-  background-image: url("https://em.wattpad.com/7ade4e2cef2967614f669b1f8b4c534bd754ce15/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f392d6e457a657170474659534f673d3d2d3332323232363334312e313437643830393264393465356138623139383831323432353039302e6a7067?s=fit&w=1280&h=1280");
-  background-size: cover;
 }
