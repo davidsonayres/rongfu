@@ -91,3 +91,20 @@ div#content_box {
   border: 1px solid black;
   background-color: lightgrey;
 }
+
+/* PHOTOS */
+div#gallery {
+  display: flex;
+  border: 1px solid black;
+  width: 100%;
+  height: 85%;
+  flex-direction: column;
+  flex-flow: row wrap;
+  position: absolute;
+  top: 5%;
+}
+
+#gallery img {
+  position: relative;
+  margin: 0.5%;
+}
