@@ -76,8 +76,9 @@ div#content_box {
   background-color: lightgrey;
 }
 
-/* ABOUT */
-#about_text {
+/* ABOUT / MEDIA */
+#about_text,
+#media_text {
   text-align: center;
   line-height: 1.25;
   padding-top: 5%;
@@ -85,7 +86,8 @@ div#content_box {
   height: 85%;
 }
 
-#about_image {
+#about_image,
+#media_image {
   width: 50%;
   height: 85%;
   border: 1px solid black;
@@ -141,4 +143,20 @@ div#gallery {
 
 #contact_info h1 {
   margin: 0;
+}
+
+/* MEDIA */
+#media_text {
+  text-align: center;
+  line-height: 1.25;
+  padding-top: 4%;
+  width: 40%;
+  height: 85%;
+}
+
+#media_image {
+  width: 50%;
+  height: 85%;
+  border: 1px solid black;
+  background-color: lightgrey;
 }
